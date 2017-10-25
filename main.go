@@ -456,6 +456,13 @@ func main() {
 	log.Infoln("Build context", version.BuildContext())
 	log.Infoln("Configured to collect statistics", groups.String())
 
+	bindURIEnv := os.Getenv("BIND_STATS_URL")
+	if bindURIEnv == "" {
+
+	} else {
+		bindURI = &bindURIEnv
+	}
+
 	prometheus.MustRegister(
 		version.NewCollector(exporter),
 		NewExporter(*bindVersion, *bindURI, *bindTimeout, groups),
