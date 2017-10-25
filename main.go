@@ -24,7 +24,7 @@ import (
 
 const (
 	namespace = "bind"
-	exporter  = "prometheus-bind-exporter"
+	exporter  = "bind"
 	resolver  = "resolver"
 )
 
