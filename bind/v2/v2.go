@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/digitalocean/bind_exporter/bind"
+	"github.com/easylo/prometheus-bind-exporter/bind"
 )
 
 type Isc struct {

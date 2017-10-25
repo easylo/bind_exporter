@@ -3,9 +3,9 @@ package auto
 import (
 	"net/http"
 
-	"github.com/digitalocean/bind_exporter/bind"
-	"github.com/digitalocean/bind_exporter/bind/v2"
-	"github.com/digitalocean/bind_exporter/bind/v3"
+	"github.com/easylo/prometheus-bind-exporter/bind"
+	"github.com/easylo/prometheus-bind-exporter/bind/v2"
+	"github.com/easylo/prometheus-bind-exporter/bind/v3"
 )
 
 // Client is a client which automatically detects the statistics version of the

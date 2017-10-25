@@ -12,10 +12,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/digitalocean/bind_exporter/bind"
-	"github.com/digitalocean/bind_exporter/bind/auto"
-	"github.com/digitalocean/bind_exporter/bind/v2"
-	"github.com/digitalocean/bind_exporter/bind/v3"
+	"github.com/easylo/prometheus-bind-exporter/bind"
+	"github.com/easylo/prometheus-bind-exporter/bind/auto"
+	"github.com/easylo/prometheus-bind-exporter/bind/v2"
+	"github.com/easylo/prometheus-bind-exporter/bind/v3"
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/log"
@@ -24,7 +24,7 @@ import (
 
 const (
 	namespace = "bind"
-	exporter  = "bind_exporter"
+	exporter  = "prometheus-bind-exporter"
 	resolver  = "resolver"
 )
 

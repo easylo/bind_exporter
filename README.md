@@ -1,7 +1,7 @@
 # Bind Exporter
-[![GoDoc](https://godoc.org/github.com/digitalocean/bind_exporter?status.svg)](https://godoc.org/github.com/digitalocean/bind_exporter)
-[![Build Status](https://travis-ci.org/digitalocean/bind_exporter.svg)](https://travis-ci.org/digitalocean/bind_exporter)
-[![Go Report Card](https://goreportcard.com/badge/digitalocean/bind_exporter)](https://goreportcard.com/report/digitalocean/bind_exporter)
+[![GoDoc](https://godoc.org/github.com/easylo/prometheus-bind-exporter?status.svg)](https://godoc.org/github.com/easylo/prometheus-bind-exporter)
+[![Build Status](https://travis-ci.org/easylo/prometheus-bind-exporter.svg)](https://travis-ci.org/easylo/prometheus-bind-exporter)
+[![Go Report Card](https://goreportcard.com/badge/easylo/prometheus-bind-exporter)](https://goreportcard.com/report/easylo/prometheus-bind-exporter)
 
 Export BIND(named/dns) v9+ service metrics to Prometheus.
 

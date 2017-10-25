@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/digitalocean/bind_exporter/bind"
+	"github.com/easylo/prometheus-bind-exporter/bind"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/expfmt"
 )
