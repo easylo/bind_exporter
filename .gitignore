@@ -1,4 +1,3 @@
 .build
-bind_exporter
 *.tar.gz
 *-stamp
