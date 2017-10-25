@@ -20,4 +20,4 @@ FROM        quay.io/prometheus/busybox:latest
 COPY --from=builder /go/src/github.com/easylo/prometheus-bind-exporter/prometheus-bind-exporter /bin/prometheus-bind-exporter
 
 EXPOSE      9119
-ENTRYPOINT  [ "/bin/prometheus-bind-exporter"]
+ENTRYPOINT  [ "/bin/prometheus-bind-exporter", "-bind.stats-groups", "server,view,tasks"]
